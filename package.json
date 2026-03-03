@@ -1,0 +1,18 @@
+{
+  "name": "login-website",
+  "version": "1.0.0",
+  "description": "User authentication web application with login and registration system",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Samwel Hezron Mgimba",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "pg": "^8.11.3",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2",
+    "dotenv": "^16.3.1"
+  }
+}
